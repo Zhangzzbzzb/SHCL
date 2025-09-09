@@ -87,11 +87,11 @@ The repository includes bash scripts in the `scripts/` directory for easy reprod
 To reproduce results for a specific dataset (e.g., SMD):
 
 ```bash
-bash scripts/SMD.sh
+bash scripts/PSM.sh
 ```
 
 This will:
-- Load the SMD dataset from `dataset/SMD/`.
+- Load the PSM dataset from `dataset/PSM/`.
 - Train the SHCL-VAE model using parameters defined in `main.py`.
 - Perform validation during training.
 - Evaluate on the test set using metrics from `metrics/`.
@@ -102,7 +102,7 @@ Repeat for other datasets:
 ```bash
 bash scripts/MSL.sh
 bash scripts/SMAP.sh
-bash scripts/PSM.sh
+bash scripts/SMD.sh
 bash scripts/SWAT.sh
 ```
 
