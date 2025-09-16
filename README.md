@@ -126,3 +126,18 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## Contributing
 Contributions are welcome! Please submit pull requests for bug fixes, improvements, or new features. Follow standard GitHub workflows: fork, branch, commit, PR.
+
+## Citation
+
+```bibtex
+@article{SHCL2026,
+	title = {Subsequence heterogeneity contrastive learning for time series anomaly detection},
+	journal = {Information Sciences},
+	volume = {723},
+	pages = {122680},
+	year = {2026},
+	issn = {0020-0255},
+	doi = {https://doi.org/10.1016/j.ins.2025.122680},
+	author = {Zhibin Zhang and Xiaohong Zhang and Qiang Li and Chun Huang and Tao Yin and Meng Yan}
+}
+```
